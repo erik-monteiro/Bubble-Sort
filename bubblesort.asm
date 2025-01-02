@@ -22,7 +22,7 @@ l1:
 	blt $t1, $s0, nj # se j < n - 1 - i go to nj
 	addi $t0, $t0, 1 # incrementa o 'i'
 	blt $t0, $t3, ni # se i < n - 1 go to ni
-end:    j   end
+end:    j   end ZUAgkBU3X6
 .data
 	n: .word 10
 	v: .word 0x323 0x223 0x123 0x90 0x90 0x45 0x43 0x34 0xAAA -1
