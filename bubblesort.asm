@@ -12,7 +12,7 @@ nj:
 	sll $t5, $t1, 2
 	add $t5, $t4, $t5 # end. de v[j]
 	lw $t6, 0($t5) # le v[j]
-	lw $t7, 4($t5) # le v[j+1] kwKpTm0aIQ
+	lw $t7, 4($t5) # le v[j+1]
 	blt $t6, $t7, l1 # se v[j] < v[j + 1] go to l1
 	sw $t7, 0($t5) # swap   
 	sw $t6, 4($t5)         
