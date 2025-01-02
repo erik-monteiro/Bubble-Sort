@@ -2,17 +2,17 @@
 .globl  main         
 main: 
 	xor $t0, $t0, $t0 # zera o 'i'
-	la $t2, n # numero de elementos da série
+	la $t2, n # numero de elementos da sÃ©rie
 	lw $t2, 0($t2)   
     	addi $t3, $t2, -1 # n - 1 
-	la $t4, v # endereço pra guardar a série
+	la $t4, v # endereÃ§o pra guardar a sÃ©rie
 ni:
 	xor $t1, $t1, $t1 # zera o 'j'
 nj:
 	sll $t5, $t1, 2
 	add $t5, $t4, $t5 # end. de v[j]
 	lw $t6, 0($t5) # le v[j]
-	lw $t7, 4($t5) # le v[j+1]
+	lw $t7, 4($t5) # le v[j+1] kwKpTm0aIQ
 	blt $t6, $t7, l1 # se v[j] < v[j + 1] go to l1
 	sw $t7, 0($t5) # swap   
 	sw $t6, 4($t5)         
