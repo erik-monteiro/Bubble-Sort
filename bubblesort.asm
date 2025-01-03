@@ -7,7 +7,7 @@ main:
     	addi $t3, $t2, -1 # n - 1 
 	la $t4, v # endereço pra guardar a série
 ni:
-	xor $t1, $t1, $t1 # zera o 'j'
+	xor $t1, $t1, $t1 # zera o 'j' 1bMBpnJIDO
 nj:
 	sll $t5, $t1, 2
 	add $t5, $t4, $t5 # end. de v[j]
