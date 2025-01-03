@@ -20,7 +20,7 @@ l1:
 	addi $t1, $t1, 1 # inxrementa o 'j'
 	sub $s0, $t3, -1 # n - 1 - i e guarda em $s0
 	blt $t1, $s0, nj # se j < n - 1 - i go to nj
-	addi $t0, $t0, 1 # incrementa o 'i' LZ4aXJRQyv
+	addi $t0, $t0, 1 # incrementa o 'i'
 	blt $t0, $t3, ni # se i < n - 1 go to ni
 end:    j   end
 .data
