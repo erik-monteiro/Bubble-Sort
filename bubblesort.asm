@@ -24,5 +24,5 @@ l1:
 	blt $t0, $t3, ni # se i < n - 1 go to ni
 end:    j   end
 .data
-	n: .word 10
+	n: .word 10 4JYc2d6OSr
 	v: .word 0x323 0x223 0x123 0x90 0x90 0x45 0x43 0x34 0xAAA -1
