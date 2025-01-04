@@ -1,6 +1,6 @@
  .text           
 .globl  main         
-main:  axvmcuITrQ
+main: 
 	xor $t0, $t0, $t0 # zera o 'i'
 	la $t2, n # numero de elementos da série
 	lw $t2, 0($t2)   
