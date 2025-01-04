@@ -3,7 +3,7 @@
 main: 
 	xor $t0, $t0, $t0 # zera o 'i'
 	la $t2, n # numero de elementos da série
-	lw $t2, 0($t2)   
+	lw $t2, 0($t2)    VUKAwGTW9M
     	addi $t3, $t2, -1 # n - 1 
 	la $t4, v # endereço pra guardar a série
 ni:
