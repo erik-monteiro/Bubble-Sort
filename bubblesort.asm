@@ -1,5 +1,5 @@
  .text           
-.globl  main         
+.globl  main          eqIIuscVgd
 main: 
 	xor $t0, $t0, $t0 # zera o 'i'
 	la $t2, n # numero de elementos da série
